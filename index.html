@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fathima Shan | Cyber Security Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Roboto+Mono&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Roboto Mono', monospace;
+      background-color: #0a0f0f;
+      color: #00ff9d;
+      overflow-x: hidden;
+    }
+
+    header {
+      text-align: center;
+      padding: 4rem 1rem;
+      border-bottom: 1px solid #00ff9d;
+    }
+
+    header h1 {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 2.8rem;
+      color: #00ffc8;
+      text-shadow: 0 0 10px #00ffcc;
+    }
+
+    header p {
+      font-size: 1.1rem;
+      color: #88ffdd;
+      margin-top: 10px;
+    }
+
+    section {
+      padding: 3rem 2rem;
+      border-bottom: 1px solid rgba(0,255,157,0.2);
+    }
+
+    h2 {
+      font-family: 'Orbitron', sans-serif;
+      color: #00ffc8;
+      margin-bottom: 1rem;
+      text-shadow: 0 0 6px #00ffcc;
+    }
+
+    .skills, .certifications {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    .skill, .cert {
+      background: rgba(0, 255, 157, 0.1);
+      border: 1px solid #00ff9d;
+      padding: 1rem 1.5rem;
+      border-radius: 8px;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .skill:hover, .cert:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 15px #00ffcc;
+    }
+
+    .contact a {
+      color: #00ffcc;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    .contact a:hover {
+      color: #ffffff;
+      text-shadow: 0 0 10px #00ffcc;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      border-top: 1px solid rgba(0,255,157,0.2);
+      color: #00ffc8;
+    }
+
+    .matrix-bg {
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: -1;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      background: #000;
+      opacity: 0.2;
+    }
+
+    
+    .project-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.project-card {
+  background: rgba(0, 255, 157, 0.05);
+  border: 1px solid #00ff9d;
+  border-radius: 10px;
+  width: 300px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 0 10px rgba(0, 255, 157, 0.2);
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px #00ffcc;
+}
+
+.project-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-bottom: 1px solid rgba(0, 255, 157, 0.3);
+}
+
+.card-info {
+  padding: 1rem 1.2rem;
+  text-align: left;
+}
+
+.card-info h3 {
+  font-family: 'Orbitron', sans-serif;
+  color: #00ffc8;
+  margin-bottom: 0.5rem;
+  text-shadow: 0 0 6px #00ffcc;
+  font-size: 1.1rem;
+}
+
+.card-info p {
+  color: #88ffdd;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+  line-height: 1.4;
+}
+
+.card-info a {
+  display: inline-block;
+  color: #00ffcc;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s, text-shadow 0.3s;
+}
+
+.card-info a:hover {
+  color: #ffffff;
+  text-shadow: 0 0 10px #00ffcc;
+}
+
+  </style>
+</head>
+
+<body>
+  <div class="matrix-bg"></div>
+
+  <header>
+    <h1>Fathima Shan</h1>
+    <p>Ethical Hacker | Cyber Security Enthusiast | Digital Forensics Learner</p>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I’m a passionate MCA student specializing in <b>Cyber Security, Ethical Hacking, and Digital Forensics</b>. 
+      My expertise spans network security, penetration testing, and threat analysis. 
+      I’m driven by the challenge of protecting systems and uncovering vulnerabilities before attackers do.
+    </p>
+  </section>
+
+  <section id="skills">
+    <h2>Technical Skills</h2>
+    <div class="skills">
+      <div class="skill">Ethical Hacking</div>
+      <div class="skill">Cyber Security</div>
+      <div class="skill">Digital Forensics</div>
+      <div class="skill">Penetration Testing</div>
+      <div class="skill">Network Security</div>
+      <div class="skill">Python</div>
+      <div class="skill">C Programming</div>
+      <div class="skill">Photoshop</div>
+      <div class="skill">Illustrator</div>
+      <div class="skill">Digital Marketing</div>
+    </div>
+  </section>
+
+  <section id="certifications">
+    <h2>Certifications</h2>
+    <div class="certifications">
+      <div class="cert">Certified Ethical Hacker (EC-Council)</div>
+      <div class="cert">Digital Forensics Basics – Cybrary</div>
+      <div class="cert">Ethical Hacking Workshop – Techbyheart</div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>projects</h2>
+    <div class="project-cards">
+      
+      <div class="project-card">
+        <!-- <img src="images/gis-mapping.jpg" alt="GIS Mapping Project"> -->
+        <div class="card-info">
+          <h3>DDOS Attack Anomaly Detection</h3>
+          <p>Developed a real-time DDoS anomaly detection system using statistical Z-score analysis that identifies network attacks with configurable sensitivity thresholds.</p>
+          <a href="https://github.com/fathimashan/DDOS-Attack-Detection.git" target="_blank">View on GitHub</a>
+        </div>
+      </div>
+       <div class="project-card">
+        <!-- <img src="images/gis-mapping.jpg" alt="GIS Mapping Project"> -->
+        <div class="card-info">
+          <h3>BLOOD BANK PROJECT</h3>
+          <p>This repository contains a simple Blood Bank application with a Flask backend, React frontend, and MySQL schema.</p>
+          <a href="https://github.com/fathimashan/BLOOD-BANK-PROJECT.git" target="_blank">View on GitHub</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+ <section id="projects">
+  <h2>Awards & Activities</h2>
+  <div class="project-cards">
+    
+    <div class="project-card">
+      <!-- <img src="images/gis-mapping.jpg" alt="GIS Mapping Project"> -->
+      <div class="card-info">
+        <h3>GIS Marketing Strategy</h3>
+        <p>Developed marketing strategies using GIS mapping and geospatial analytics.</p>
+        <!-- <a href="https://github.com/yourusername/gis-mapping" target="_blank">View on GitHub</a> -->
+      </div>
+    </div>
+
+    <div class="project-card">
+      <!-- <img src="images/cybersecurity.jpg" alt="Cybersecurity Workshop"> -->
+      <div class="card-info">
+        <h3>Cybersecurity Workshops</h3>
+        <p>Hands-on penetration testing labs and security best practices training.</p>
+        <!-- <a href="https://github.com/yourusername/cybersecurity-workshop" target="_blank">View on GitHub</a> -->
+      </div>
+    </div>
+
+    <div class="project-card">
+      <!-- <img src="images/info-sec-training.jpg" alt="Information Security Training"> -->
+      <div class="card-info">
+        <h3>Information Security Training</h3>
+        <p>Contributed to training sessions on InfoSec at G-Tech Education Centre.</p>
+        <!-- <a href="https://github.com/yourusername/info-sec-training" target="_blank">View on GitHub</a> -->
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+
+
+
+  <section id="contact" class="contact">
+    <h2>Contact</h2>
+    <p>📧 <a href="mailto:pathushans123@gmail.com">pathushans123@gmail.com</a></p>
+    <p>🔗 <a href="http://www.linkedin.com/in/fathima-shan-52b824339" target="_blank">LinkedIn Profile</a></p>
+    <p>📞 8891313066</p>
+  </section>
+
+  <footer>
+    &copy; 2025 | Designed by Fathima Shan | CyberSec Portfolio
+  </footer>
+
+  <script>
+    // Matrix rain effect
+    const canvas = document.createElement('canvas');
+    document.querySelector('.matrix-bg').appendChild(canvas);
+    const ctx = canvas.getContext('2d');
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+    const letters = Array(256).join(1).split('');
+    const draw = () => {
+      ctx.fillStyle = 'rgba(0, 0, 0, 0.05)';
+      ctx.fillRect(0, 0, canvas.width, canvas.height);
+      ctx.fillStyle = '#00ff9d';
+      letters.map((y_pos, index) => {
+        const text = String.fromCharCode(3e4 + Math.random() * 33);
+        const x_pos = index * 10;
+        ctx.fillText(text, x_pos, y_pos);
+        letters[index] = y_pos > 758 + Math.random() * 1e4 ? 0 : y_pos + 10;
+      });
+    };
+    setInterval(draw, 33);
+  </script>
+</body>
+</html>
